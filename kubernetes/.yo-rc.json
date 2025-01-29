@@ -1,0 +1,21 @@
+{
+  "generator-jhipster": {
+    "appsFolders": ["harish"],
+    "dbRandomPassword": "609cabe26a1cb0f8b68892f7395e884c70bc6cc60193f14adca76ef40f8d",
+    "deploymentApplicationType": "microservice",
+    "directoryPath": "../../",
+    "dockerPushCommand": "docker push",
+    "dockerRepositoryName": "",
+    "ingressDomain": null,
+    "ingressType": null,
+    "istio": false,
+    "jhipsterVersion": "8.7.1",
+    "jwtSecretKey": "NDk2YmFlYzU3M2RiODE0NzUwMGY4NjMyZWFlMDg1YzE0NjE5YWE5NDc2NmYyZDViNmVmZjQ3MDllZjUwNmEzYTQzNTk2YTdkOTc0ODBhYWY2Yzc3ZWE3NmFlNDUyZjExZjI2OA==",
+    "kubernetesNamespace": "default",
+    "kubernetesServiceType": "LoadBalancer",
+    "kubernetesStorageClassName": null,
+    "kubernetesUseDynamicStorage": false,
+    "monitoring": "no",
+    "serviceDiscoveryType": "consul"
+  }
+}

@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: harish
+  namespace: default
+  labels:
+    app: harish
+spec:
+  selector:
+    app: harish
+  ports:
+    - name: http
+      port: 8081

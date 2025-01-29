@@ -1,0 +1,14 @@
+commonLabels:
+  app.kubernetes.io/genereted-by: JHipster
+
+resources:
+  # Individual apps
+  - harish-k8s/harish-deployment.yml
+  - harish-k8s/harish-service.yml
+  - harish-k8s/harish-postgresql.yml
+  # service discovery eureka/consul
+  - registry-k8s/consul.yml
+  - registry-k8s/consul-config-loader.yml
+  - registry-k8s/application-configmap.yml
+
+patchesJson6902:
